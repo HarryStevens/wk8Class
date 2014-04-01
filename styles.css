@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, helvetica, sans-serif;
+	width: 960px;
+	height: 600px;
+	padding: 10px;
+	display: table;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+}
+div {
+	outline: 1px solid #aaa;
+}
+#main-content {
+	float: left;
+	width: 100%;
+}
+.button-holder {
+	width: 180px;
+	float: left;
+}
+.button {
+	width: 60px;
+	padding: 8px;
+	margin: 4px;
+	float: left;
+	text-align: center;
+}
+.image-holder {
+	width: 617px;
+	height: 345px;
+	float: left;
+	position: relative;
+	top: 0;
+	left: 2px;
+}

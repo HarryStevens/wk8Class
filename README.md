@@ -1,0 +1,1 @@
+Class work for week 8. jQuery and CSS interactives.

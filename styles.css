@@ -12,13 +12,27 @@ h1 {
 div {
 	outline: 1px solid #aaa;
 }
+a:link {
+	text-decoration: none;
+	color: blue;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: blue;
+}
 #main-content {
 	float: left;
 	width: 100%;
 }
 .button-holder {
-	width: 180px;
+	width: 170px;
 	float: left;
+	margin-left: 3px;
 }
 .button {
 	width: 60px;
@@ -34,4 +48,18 @@ div {
 	position: relative;
 	top: 0;
 	left: 2px;
+}
+.about-holder {
+	width: 160px;
+	padding: 4px;
+	float: left;
+}
+.about-head {
+	font-weight: bold;
+	font-size: 18px;
+}
+.about-text {
+	margin-top: -12px;
+	margin-bottom: 10px;
+	font-size:13px;
 }
